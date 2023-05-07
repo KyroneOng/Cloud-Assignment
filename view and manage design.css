@@ -1,0 +1,173 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 Aug 2022, 12:03:34 pm
+    Author     : phuah
+*/
+
+/*Page design*/
+html{
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+}
+
+body{
+    width:100%;
+    min-width:70px;
+    max-width:3000px;
+    margin-left:auto;
+    margin-right: auto;
+    border: solid #36ADA9;
+    background-color:lavenderblush;
+}
+
+
+/*Header*/
+.header{
+    background-color: #534FA1;
+    color: white;
+    font-weight: bold;
+    text-shadow: 3.5px 3.5px #36ADA9;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
+    text-align: right;
+}
+
+
+
+/*logout icon*/
+.logout{
+    width:30px;
+    height:30px;
+    margin:0.5em 0.3em 0em 0em;
+    box-shadow: 1px 1px 2px 2px #36ADA9; 
+}
+
+
+
+/*logo icon*/
+.logo{
+    width:120px;
+    height:100px;
+    margin:0em 18px 0em 3em;
+    box-shadow: 1px 1px 2px 2px #36ADA9;
+    float:left;
+}
+
+
+
+
+/*navigation*/
+.horizontal a{
+    line-height:2em;
+    text-align:center;
+    display:block;
+}
+
+.horizontal li{
+    display:block;
+    float:left;
+    width:16.66%;
+}
+
+.nav{
+    list-style-type: none;
+    overflow: hidden;
+    height:1.5em;
+    font-size:1.5em;
+    background-color: #36ADA9;
+    display:flex;
+    color:white;
+    text-shadow: 1px 1px #ffd060;
+    padding-bottom: 0.8em;
+    padding-top: 0.2em;
+    width:97%;
+}
+
+/*footer*/
+footer{
+    background: #ffd060;
+    width:100%;
+    height:40px;
+}
+
+ footer .footer{  
+    width:100%;
+    display:flex;
+    margin-left:23.7em;
+ }
+ 
+ .footer .box .newgroup{
+    color: #534FA1;
+    font-weight:bold;
+    font-size: 1.8em;
+    text-shadow: 1.5px 1.5px #36ADA9;
+    margin-bottom: 10px;
+    position:relative;
+ }
+ 
+ .footer .box .newgroup:before{
+     content:'';
+     position:absolute;
+     left:0;
+     bottom:-2px;
+     height:2px;
+     width:35px;
+     background:white;
+ }
+ 
+ .footer .box li{  
+     list-style: none;
+ }
+
+.footer .box li a{
+    text-decoration:none;
+    color: #534FA1;
+    font-size: 1.2em;
+    text-shadow: 2px 2px white; 
+}
+ 
+
+
+
+
+/*follow us*/
+.followus{
+    color:white;
+    background-color: #534FA1;
+    font-weight:bold;
+    width: 100px;
+    height:40px;
+    padding-left:4em;
+    padding-right:6em;
+    text-align: center; 
+    text-shadow: 2px 2px #ffd060;
+    margin-left:45em;
+}
+
+.followus .instagram{
+    width:50px;
+    height:50px;
+    box-shadow: 1px 1px 1px 1px #36ADA9;
+}
+
+.followus .facebook{
+    width:50px;
+    height:50px;
+    box-shadow: 1px 1px 1px 1px #36ADA9;
+}
+
+.followus .youtube{
+    width:55px;
+    height:45px;
+    box-shadow: 1px 1px 1px 1px #36ADA9;
+}
+
+
